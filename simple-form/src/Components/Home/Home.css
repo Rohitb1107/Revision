@@ -1,0 +1,9 @@
+.home-div {
+  margin: auto;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.home-div h1 {
+  font-size: 5rem;
+}

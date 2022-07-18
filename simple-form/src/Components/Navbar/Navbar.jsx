@@ -10,22 +10,22 @@ const Navbar = () => {
           <a className="navbar-brand" href="#">
             My-Site
           </a>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="ul-div collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="ul-part navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/addcity">Login</Link>
+                <Link to="/login">Login</Link>
               </li>
               <li className="nav-item">
-                <Link to="/addcountry">Register</Link>
+                <Link to="/register">Register</Link>
               </li>
               <li className="nav-item">
-                <Link to="/addcountry">About us</Link>
+                <Link to="#">About us</Link>
               </li>
               <li className="nav-item">
-                <Link to="/addcountry">Contacts us</Link>
+                <Link to="#">Contacts us</Link>
               </li>
             </ul>
             <form className="d-flex" role="search">
