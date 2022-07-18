@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
+import AllRoutes from "./Components/AllRoutes";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React</h1>
-    </div>
+    <>
+      <AllRoutes />
+    </>
   );
 }
 

@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5rem;
+}
+
+a:hover {
+  color: antiquewhite;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
