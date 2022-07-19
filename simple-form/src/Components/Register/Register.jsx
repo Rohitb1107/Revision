@@ -1,5 +1,6 @@
 import React from "react";
 import "./Register.css";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -28,9 +29,6 @@ const Register = () => {
                           className="form-control form-control-lg"
                           placeholder="Your Name"
                         />
-                        {/* <label className="form-label" htmlFor="form3Example1cg">
-                          Your Name
-                        </label> */}
                       </div>
                       <div className="form-outline mb-4">
                         <input
@@ -39,9 +37,6 @@ const Register = () => {
                           className="form-control form-control-lg"
                           placeholder="Your Email"
                         />
-                        {/* <label className="form-label" htmlFor="form3Example3cg">
-                          Your Email
-                        </label> */}
                       </div>
                       <div className="form-outline mb-4">
                         <input
@@ -50,9 +45,6 @@ const Register = () => {
                           className="form-control form-control-lg"
                           placeholder=" Password"
                         />
-                        {/* <label className="form-label" htmlFor="form3Example4cg">
-                          Password
-                        </label> */}
                       </div>
                       <div className="form-outline mb-4">
                         <input
@@ -61,12 +53,6 @@ const Register = () => {
                           className="form-control form-control-lg"
                           placeholder="Repeat your password"
                         />
-                        {/* <label
-                          className="form-label"
-                          htmlFor="form3Example4cdg"
-                        >
-                          Repeat your password
-                        </label> */}
                       </div>
                       <div className="form-check d-flex justify-content-center mb-5">
                         <input
@@ -95,9 +81,10 @@ const Register = () => {
                       </div>
                       <p className="text-center text-muted mt-5 mb-0">
                         Have already an account?{" "}
-                        <a href="#!" className="fw-bold text-body">
+                        <Link className="fw-bold text-body" to="/login">
+                          {" "}
                           <u>Login here</u>
-                        </a>
+                        </Link>
                       </p>
                     </form>
                   </div>
