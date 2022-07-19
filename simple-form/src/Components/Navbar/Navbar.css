@@ -1,5 +1,5 @@
 .nav-div {
-  width: 100vw;
+  width: 100%;
 }
 
 .ul-div ul {
@@ -17,3 +17,4 @@
   text-decoration: none;
   color: white;
 }
+
